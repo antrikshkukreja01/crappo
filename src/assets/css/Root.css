@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+
+.ff_rubik {
+  font-family: "Rubik", sans-serif;
+}
+:root {
+  /* font size */
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 20px;
+  --fs-lg: 32px;
+  --fs-xl: 40px;
+
+  /* colors */
+
+  --clr-light-gray: #e0e0e0;
+  --clr-medium-gray: #bdbdbd;
+  --clr-gray: #828282;
+  --clr-blue: #3671e9;
+  --clr-navyblue: #0d0d2b;
+
+  /* background color */
+
+  --bg-clr-darkblue: #0d0d2b;
+  --bg-clr-navyblue: #2b076e;
+  --bg-clr-skinywhite: #fbfcfe;
+}
+
+.fs_16 {
+  font-size: var(--fs-xsm);
+}
+.fs_18 {
+  font-size: var(--fs-sm);
+}
+.fs_20 {
+  font-size: var(--fs-md);
+}
+.fs_32 {
+  font-size: var(--fs-lg);
+}
+.fs_40 {
+  font-size: var(--fs-xl);
+}
+
+.color_navyblue {
+  color: var(--clr-navyblue);
+}
+.color_light_gray {
+  color: var(--clr-light-gray) !important;
+}
+.color_blue {
+  color: var(--clr-blue);
+}
+.color_medium_gray {
+  color: var(--clr-medium-gray);
+}
+.color_gray {
+  color: var(--clr-gray);
+}
+
+.bg_navyblue {
+  background-color: var(--bg-clr-navyblue);
+}
+.bg_darkblue {
+  background-color: var(--bg-clr-darkblue);
+}
+.bg_skinywhite {
+  background-color: var(--bg-clr-skinywhite);
+}
