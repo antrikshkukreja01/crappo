@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+  border-radius: 16px;
+  background: white;
+  transform: translateY(60.5%);
+  transition: all ease-in-out 400ms;
+}
+.box:hover {
+  box-shadow: 0px 20px 200px rgba(87, 42, 170, 0.161);
+  transition: all ease-in-out 400ms;
+}
+.small_box {
+  background: #ffffff;
+  box-shadow: 0px 20px 20px #391777;
+  border-radius: 16px;
+  padding: 48px 24px;
+}
+.small_box:hover {
+  background: #2b076e;
+  backdrop-filter: blur(125px);
+  border-radius: 16px;
+  transition: all ease-in-out 500ms !important;
+}
+.small_box:hover p {
+  color: white !important;
+  transition: all ease-in-out 500ms !important;
+}
+.small_box .d_flex {
+  display: flex !important;
+  transition: all ease-in-out 500ms !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.small_box:hover .d_flex {
+  display: none !important;
+  transition: all ease-in-out 500ms !important;
+}
+.small_box .d_none {
+  display: none !important;
+  transition: all ease-in-out 500ms !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.small_box:hover .d_none {
+  display: flex !important;
+  transition: all ease-in-out 500ms !important;
+}
+.img_size {
+  height: 80px;
+  width: 80px;
+}
+.button_size {
+  width: 76px;
+  height: 76px;
+}
+
+.mx_622 {
+  max-width: 622px;
+}
+.mx_741 {
+  max-width: 741px;
+}
+input {
+  outline: none;
+  border: none !important;
+  background: transparent;
+}
+::placeholder {
+  color: #0d0d2b !important;
+}
+.bd_bottom {
+  border-bottom: 2px solid #e0e0e0 !important;
+  width: 100%;
+}
+.calculate_btn {
+  background: #3671e9;
+  border-radius: 32px;
+  padding: 16px 32px;
+  transition: all ease-in-out 400ms !important;
+  border: transparent 2px solid;
+  display: inline-block;
+}
+.calculate_btn:hover {
+  background: transparent;
+  border: #3671e9 2px solid;
+  color: #3671e9 !important;
+  transition: all ease-in-out 400ms !important;
+  display: inline-block;
+}
+.mt_3 {
+  margin-top: 20px;
+}
+.mt_4 {
+  margin-top: 20px;
+}
+.start_btn {
+  background: #3671e9;
+  border-radius: 32px;
+  padding: 20px;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+.start_btn:hover {
+  background-color: transparent;
+  border: 2px solid #3671e9;
+}
+.border_radius_1 {
+  border-radius: 16px 16px 0px 0px;
+}
+@media (max-width: 576px) {
+  .box {
+    transform: translateY(0%);
+  }
+  .pt_250 {
+    padding-top: 50px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 576px) {
+  .box {
+    transform: translateY(0%);
   }
-  to {
-    transform: rotate(360deg);
+  .pt_250 {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .mt_4 {
+    margin-top: 0px;
+  }
+  .box {
+    transform: translateY(0%);
+  }
+  .pt_250 {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .mt_3 {
+    margin-top: 0px;
+  }
+  .box {
+    transform: translateY(60.5%);
+  }
+  .pt_250 {
+    padding-top: 250px;
   }
 }
