@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import Check from "./Components/Check";
 import Trade from "./Components/Trade";
 import Box from "./Components/Box";
+import Market from "./Components/Market";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
       <Check />
       <Box />
       <Trade />
+      <Market />
     </>
   );
 }

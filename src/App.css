@@ -10,9 +10,37 @@
   background: white;
   transition: all ease-in-out 400ms;
 }
+.box1 {
+  background: #491f98;
+  backdrop-filter: blur(125px);
+  /* Note: backdrop-filter has minimal browser support */
+  padding: 24px 16px;
+  border-radius: 16px;
+}
+.box1_pos {
+  position: absolute;
+  bottom: -40%;
+}
+.box2 {
+  background: #491f98;
+  backdrop-filter: blur(125px);
+  /* Note: backdrop-filter has minimal browser support */
+  padding: 16px 44px;
+  border-radius: 16px;
+}
+.box2_pos {
+  position: absolute;
+  bottom: -15%;
+  right: 10%;
+}
 .bg_color {
   background: linear-gradient(180deg, #0e0e2c 50%, #fbfcfe 50%) !important;
   margin-top: -2px;
+}
+.bitcoin_box {
+  background: #35068c;
+  border-radius: 16px;
+  padding: 40px;
 }
 
 .dropdown-toggle::after {
@@ -89,16 +117,33 @@
   height: 80px;
   width: 80px;
 }
+.img_size_2 {
+  height: 50px;
+  width: 50px;
+}
 .button_size {
   width: 76px;
   height: 76px;
 }
+.opicity_1 {
+  opacity: 0.7;
+}
 
+.mx_146 {
+  max-width: 146px;
+}
+
+.mx_408 {
+  max-width: 408px;
+}
 .mx_622 {
   max-width: 622px;
 }
 .mx_741 {
   max-width: 741px;
+}
+.mx_758 {
+  max-width: 758px;
 }
 input {
   outline: none;
@@ -127,6 +172,21 @@ input {
   transition: all ease-in-out 400ms !important;
   display: inline-block;
 }
+.learn_btn {
+  background: #3671e9;
+  border-radius: 50px;
+  padding: 16px 32px;
+  transition: all ease-in-out 400ms !important;
+  border: transparent 2px solid;
+  display: inline-block;
+}
+.learn_btn:hover {
+  background: transparent;
+  border: white 2px solid;
+  transition: all ease-in-out 400ms !important;
+  display: inline-block;
+  color: white !important;
+}
 .mt_3 {
   margin-top: 20px;
 }
@@ -139,11 +199,13 @@ input {
   padding: 16px 16px 16px 24px;
   border: 2px solid transparent;
   display: inline-block;
+  transition: all ease-in-out 400ms !important;
 }
 .start_btn:hover {
   background-color: transparent;
-  border: 2px solid #3671e9;
+  border: 2px solid white;
   border-radius: 32px !important;
+  transition: all ease-in-out 400ms !important;
 }
 .border_radius_1 {
   border-radius: 16px 16px 0px 0px;
@@ -156,7 +218,7 @@ input {
     padding-top: 50px;
   }
   .w_381 {
-    width: 274px !important;
+    width: 100% !important;
   }
 }
 @media (min-width: 576px) {

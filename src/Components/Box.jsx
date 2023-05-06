@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 
 function Box() {
   return (
-    <section className=" bg_color py-5">
+    <section className=" bg_color ">
       <div className=" container">
         {" "}
         <div className="box ">
@@ -45,7 +45,7 @@ function Box() {
                         />
                       </svg>
                     </Dropdown.Toggle>{" "}
-                    <Dropdown.Menu>
+                    <Dropdown.Menu className=" w_381">
                       {" "}
                       <Dropdown.Item className=" text-center" href="#/action-1">
                         Action{" "}
