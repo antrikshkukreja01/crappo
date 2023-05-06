@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Check from "./Components/Check";
 import Trade from "./Components/Trade";
+import Box from "./Components/Box";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Check />
+      <Box />
       <Trade />
     </>
   );

@@ -7,7 +7,7 @@ import litecoin from "../assets/imgs/png/litecoin.png";
 function Trade() {
   return (
     <>
-      <section className=" pb-5 pt_250 ">
+      <section className=" py-5 bg_skinywhite  position-relative ">
         <Container>
           <div className=" text-center d-flex justify-content-center  ">
             <p className=" ff_rubik fw-bold fs_40 color_navyblue mx_741">
@@ -15,7 +15,7 @@ function Trade() {
             </p>
           </div>
 
-          <Row className=" justify-content-center">
+          <Row className=" justify-content-center mt-5">
             <Col className=" my-3" lg={4} md="6">
               <div
                 className="small_box"

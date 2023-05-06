@@ -49,7 +49,7 @@
 }
 
 .color_navyblue {
-  color: var(--clr-navyblue);
+  color: var(--clr-navyblue) !important;
 }
 .color_light_gray {
   color: var(--clr-light-gray) !important;
