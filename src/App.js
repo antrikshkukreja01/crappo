@@ -9,6 +9,8 @@ import Check from "./Components/Check";
 import Trade from "./Components/Trade";
 import Box from "./Components/Box";
 import Market from "./Components/Market";
+import Detailed from "./Components/Detailed";
+import Grow from "./Components/Grow";
 
 function App() {
   useEffect(() => {
@@ -22,6 +24,8 @@ function App() {
       <Box />
       <Trade />
       <Market />
+      <Detailed />
+      <Grow />
     </>
   );
 }

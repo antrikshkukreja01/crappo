@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
 }
+.top_0 {
+  top: 0px !important;
+  left: 10%;
+}
 .box {
   border-radius: 16px;
   background: white;
@@ -17,9 +21,32 @@
   padding: 24px 16px;
   border-radius: 16px;
 }
+.box_slide {
+  background: #35068c;
+  backdrop-filter: blur(2px);
+  border-radius: 16px;
+  padding: 40px 35px 40px 40px;
+}
+.hover:hover {
+  color: white;
+}
+.slide_box {
+  background: transparent;
+  border-radius: 16px;
+  padding: 30px 52px 30px 40px;
+}
+.slide_box:hover {
+  width: 120%;
+  background: #4610ad;
+  border-radius: 16px;
+  padding: 30px 52px 30px 40px;
+  transform: translateX(-25%);
+  transition: all ease-in-out 500ms;
+}
 .box1_pos {
   position: absolute;
-  bottom: -40%;
+  bottom: -31%;
+  left: 6%;
 }
 .box2 {
   background: #491f98;
@@ -31,7 +58,7 @@
 .box2_pos {
   position: absolute;
   bottom: -15%;
-  right: 10%;
+  right: 5%;
 }
 .bg_color {
   background: linear-gradient(180deg, #0e0e2c 50%, #fbfcfe 50%) !important;
@@ -210,49 +237,112 @@ input {
 .border_radius_1 {
   border-radius: 16px 16px 0px 0px;
 }
+.img_overflow {
+  transform: translateX(-20%);
+}
 @media (max-width: 576px) {
-  /* .box {
-    transform: translateY(0%);
-  } */
+  .img_overflow {
+    transform: translateX(0%);
+  }
   .pt_250 {
     padding-top: 50px;
   }
   .w_381 {
     width: 100% !important;
   }
+  .box1 {
+    padding: 16px;
+  }
+  .box2 {
+    padding: 16px 22px;
+  }
+  .box1_pos {
+    position: absolute;
+    bottom: -18%;
+    left: 1%;
+  }
+  .box_slide {
+    background: #35068c;
+    backdrop-filter: blur(2px);
+    border-radius: 16px;
+    padding: 40px 6px 40px 6px;
+  }
+  .slide_box {
+    background: transparent;
+    border-radius: 16px;
+    padding: 30px 52px 30px 5px;
+    transition: all ease-in-out 500ms !important;
+  }
+  .slide_box:hover {
+    width: 100%;
+    background: #4610ad;
+    border-radius: 16px;
+    padding: 30px 52px 30px 6px;
+    transform: translateX(0%);
+    transition: all ease-in-out 500ms !important;
+  }
 }
 @media (min-width: 576px) {
-  /* .box {
-    transform: translateY(0%);
-  } */
+  .img_overflow {
+    transform: translateX(-12%);
+  }
   .pt_250 {
     padding-top: 50px;
   }
   .w_381 {
     width: 470px !important;
   }
+  .slide_box:hover {
+    width: 100% !important;
+    background: #4610ad;
+    border-radius: 16px;
+    padding: 30px 92px 30px 40px !important;
+    transform: translateX(-20%);
+    transition: all ease-in-out 500ms !important;
+  }
 }
 @media (min-width: 768px) {
   .mt_4 {
     margin-top: 0px;
   }
-  /* .box {
-    transform: translateY(0%);
-  } */
+  .img_overflow {
+    transform: translateX(-20%);
+  }
   .pt_250 {
     padding-top: 50px;
   }
   .w_381 {
     width: 298px !important;
   }
+  .slide_box:hover {
+    width: 100%;
+    background: #4610ad;
+    border-radius: 16px;
+    padding: 30px 92px 30px 40px !important;
+    transform: translateX(-16%);
+    transition: all ease-in-out 500ms !important;
+  }
 }
 @media (min-width: 992px) {
   .mt_3 {
     margin-top: 0px;
   }
-  /* .box {
-    transform: translateY(60.5%);
-  } */
+  .img_overflow {
+    transform: translateX(-18%) !important;
+  }
+  .slide_box {
+    background: transparent;
+    border-radius: 16px;
+    padding: 30px 52px 30px 15px;
+  }
+  .slide_box:hover {
+    width: 120% !important;
+    background: #4610ad;
+    border-radius: 16px;
+    padding: 30px 92px 30px 40px !important;
+    transform: translateX(-23%);
+    transition: all ease-in-out 500ms !important;
+  }
   .pt_250 {
     padding-top: 250px;
   }
@@ -264,9 +354,28 @@ input {
   .w_381 {
     width: 336px !important;
   }
+  .img_overflow {
+    transform: translateX(-16%);
+  }
+  .slide_box {
+    background: transparent;
+    border-radius: 16px;
+    padding: 30px 52px 30px 40px;
+  }
+  .slide_box:hover {
+    width: 100% !important;
+    background: #4610ad;
+    border-radius: 16px;
+    padding: 30px 52px 30px 40px;
+    transform: translateX(-25%);
+    transition: all ease-in-out 500ms !important;
+  }
 }
 @media (min-width: 1400px) {
   .w_381 {
     width: 381px !important;
+  }
+  .img_overflow {
+    transform: translateX(-49%);
   }
 }
