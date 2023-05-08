@@ -7,7 +7,7 @@ import litecoin from "../assets/imgs/png/litecoin.png";
 function Trade() {
   return (
     <>
-      <section className=" py-5 bg_skinywhite  position-relative ">
+      <section className=" py-5 bg_skinywhite overflow-hidden  position-relative ">
         <Container>
           <div className=" text-center d-flex justify-content-center  ">
             <p className=" ff_rubik fw-bold fs_40 color_navyblue mx_741">

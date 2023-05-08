@@ -7,7 +7,7 @@ import circle from "../assets/imgs/png/circle_img.png";
 function Market() {
   return (
     <>
-      <section className=" bg_navyblue position-relative   py-5">
+      <section className=" bg_navyblue position-relative overflow-hidden   py-5">
         <div className=" position-absolute top_0">
           <img className=" w-100" src={circle} alt="circle" />
         </div>

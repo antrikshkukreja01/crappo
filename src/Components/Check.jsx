@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 function Check() {
   return (
     <>
-      <section className=" bg_darkblue py-5">
+      <section className=" bg_darkblue mt_1 py-5">
         <Container>
           <div className=" text-center mt-lg-5">
             <p className=" ff_rubik fs_40 fw-bold text-white mb-4 ">

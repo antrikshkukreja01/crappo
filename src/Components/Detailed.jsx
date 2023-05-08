@@ -3,7 +3,7 @@ import img from "../assets/imgs/png/Statistic_img.png";
 
 function Detailed() {
   return (
-    <section className="py-5 mt_1 bg_navyblue ">
+    <section className="py-5 mt_1 overflow-hidden bg_navyblue ">
       <div className=" container">
         <div className="row mt-sm-5 flex-column-reverse flex-md-row  align-items-center">
           <div

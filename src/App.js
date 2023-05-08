@@ -11,6 +11,9 @@ import Box from "./Components/Box";
 import Market from "./Components/Market";
 import Detailed from "./Components/Detailed";
 import Grow from "./Components/Grow";
+import Choose from "./Components/Choose";
+import Header from "./Components/Header";
+import Nav from "./Components/Nav";
 
 function App() {
   useEffect(() => {
@@ -20,6 +23,8 @@ function App() {
   }, []);
   return (
     <>
+      <Nav /> <Header />
+      <Choose />
       <Check />
       <Box />
       <Trade />

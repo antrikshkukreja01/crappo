@@ -17,9 +17,126 @@
 .box1 {
   background: #491f98;
   backdrop-filter: blur(125px);
-  /* Note: backdrop-filter has minimal browser support */
   padding: 24px 16px;
   border-radius: 16px;
+}
+.navBtn {
+  width: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+}
+.navBtn .span1 {
+  background: white;
+  height: 4px;
+  margin: 3px 0px;
+  width: 50%;
+}
+.navBtn .span2 {
+  background: white;
+  height: 4px;
+  margin: 3px 0px;
+  width: 100%;
+}
+.navBtn .span3 {
+  background: white;
+  height: 4px;
+  margin: 3px 0px;
+  width: 70%;
+}
+.navBtn .span4 {
+  background: white;
+  height: 4px;
+  margin: 3px 0px;
+  width: 50%;
+}
+.navBtn .span5 {
+  background: white;
+  height: 4px;
+  margin: 3px 0px;
+  width: 100%;
+}
+.navBtn .span6 {
+  background: white;
+  height: 4px;
+  margin: 3px 0px;
+  width: 70%;
+}
+
+.menubar {
+  display: none;
+}
+.pos_cross {
+  position: absolute;
+  top: 9% !important;
+  right: 5% !important;
+}
+.pos_logo {
+  position: absolute;
+  top: 9%;
+  left: 6%;
+}
+.box_hide {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  border: 2px solid black;
+  background: linear-gradient(
+    to top,
+    rgba(1, 2, 35, 1) 25.13%,
+    rgba(1, 2, 35, 1) 89.37%
+  );
+  left: 0%;
+  top: -100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 800ms ease-in-out !important;
+  z-index: 1 !important;
+}
+.box_my {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  border: 2px solid black;
+  background: linear-gradient(
+    to top,
+    rgba(1, 2, 35, 1) 25.13%,
+    rgba(1, 2, 35, 1) 89.37%
+  );
+  left: 0;
+  top: 0;
+  z-index: 3 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 800ms ease-in-out !important;
+}
+.blur_shadow {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 4px 11px 4px 4px;
+  width: 365px;
+}
+.white_box {
+  background: #ffffff;
+  border-radius: 32px;
+  padding: 4px 16px;
+}
+.nav_hover::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  bottom: -6px;
+  background-color: white;
+  position: absolute;
+  transition: all ease-in-out 500ms !important;
+  right: 0%;
+}
+.nav_hover:hover::before {
+  width: 100%;
+  left: 0;
+  transition: all ease-in-out 500ms !important;
 }
 .box_slide {
   background: #35068c;
@@ -52,7 +169,6 @@
 .box2 {
   background: #491f98;
   backdrop-filter: blur(125px);
-  /* Note: backdrop-filter has minimal browser support */
   padding: 16px 44px;
   border-radius: 16px;
 }
@@ -60,6 +176,22 @@
   position: absolute;
   bottom: -15%;
   right: 5%;
+}
+.Register_btn {
+  padding: 14px 32px;
+  background-color: #3671e9;
+  color: white;
+  border-radius: 32px;
+  border: 2px solid transparent;
+  transition: all ease-in-out 500ms !important;
+}
+.Register_btn:hover {
+  padding: 14px 32px;
+  background-color: transparent;
+  color: white;
+  border-radius: 32px;
+  border: 2px solid white;
+  transition: all ease-in-out 500ms !important;
 }
 .bg_color {
   background: linear-gradient(180deg, #0e0e2c 50%, #fbfcfe 50%) !important;
@@ -80,6 +212,12 @@
 
 .dropdown-toggle:hover svg path {
   stroke: white;
+}
+.mx_480 {
+  max-width: 480px !important;
+}
+.mx_588 {
+  max-width: 588px !important;
 }
 .w_380 {
   width: 380px !important;
@@ -163,6 +301,9 @@
 .mx_146 {
   max-width: 146px;
 }
+.w_40 {
+  width: 40px;
+}
 
 .mx_408 {
   max-width: 408px;
@@ -244,9 +385,52 @@ input {
 .img_overflow {
   transform: translateX(-20%);
 }
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px !important;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #0d0d2b !important;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+.end_1 {
+  right: -5.4%;
+  bottom: -10%;
+}
+.end_2 {
+  right: -45.4%;
+}
+
 @media (max-width: 576px) {
   .img_overflow {
     transform: translateX(0%);
+  }
+  .blur_shadow {
+    width: 300px;
   }
   .pt_250 {
     padding-top: 50px;
