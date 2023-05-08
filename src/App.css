@@ -34,6 +34,7 @@
   background: transparent;
   border-radius: 16px;
   padding: 30px 52px 30px 40px;
+  transition: all ease-in-out 500ms !important;
 }
 .slide_box:hover {
   width: 120%;
@@ -62,6 +63,9 @@
 }
 .bg_color {
   background: linear-gradient(180deg, #0e0e2c 50%, #fbfcfe 50%) !important;
+  margin-top: -2px;
+}
+.mt_1 {
   margin-top: -2px;
 }
 .bitcoin_box {
@@ -284,7 +288,7 @@ input {
 }
 @media (min-width: 576px) {
   .img_overflow {
-    transform: translateX(-12%);
+    transform: translateX(0%);
   }
   .pt_250 {
     padding-top: 50px;
@@ -334,6 +338,7 @@ input {
     background: transparent;
     border-radius: 16px;
     padding: 30px 52px 30px 15px;
+    transition: all ease-in-out 500ms !important;
   }
   .slide_box:hover {
     width: 120% !important;
@@ -361,6 +366,7 @@ input {
     background: transparent;
     border-radius: 16px;
     padding: 30px 52px 30px 40px;
+    transition: all ease-in-out 500ms !important;
   }
   .slide_box:hover {
     width: 100% !important;

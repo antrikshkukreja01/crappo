@@ -8,7 +8,7 @@ import down_arrow from "../assets/imgs/png/loss.png";
 function Grow() {
   return (
     <>
-      <section className=" bg_navyblue position-relative overflow-hidden py-5">
+      <section className=" bg_navyblue position-relative overflow-hidden mt_1 pt-md-5 pb-5">
         <div className=" container">
           <div className="row">
             <div className="col-lg-6 mb-5 mt-2  ">
