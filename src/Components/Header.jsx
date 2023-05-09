@@ -20,12 +20,9 @@ function Header() {
           <div className="row align-items-center flex-column-reverse flex-lg-row ">
             <div className="col-lg-6 col-12 mt-5 mt-lg-0">
               <div className="blur_shadow gap-3  d-flex align-items-center">
-                <a
-                  href="#"
-                  className="white_box text-decoration-none mb-0 ff_rubik fw_500 color_navyblue fs_16"
-                >
+                <p className="white_box text-decoration-none mb-0 ff_rubik fw_500 color_navyblue fs_16">
                   75% SAVE
-                </a>
+                </p>
                 <p className=" mb-0 ff_rubik fw-normal  fs_16 text-white ps-2">
                   For the Black Friday weekend
                 </p>
@@ -67,7 +64,7 @@ function Header() {
               className="col-lg-6 mt-5 col-12"
             >
               <div className="d-flex justify-content-center">
-                <img className="w-100" src={hero_img} alt="hero_img" />
+                <img className="hero_img" src={hero_img} alt="hero_img" />
               </div>
             </div>
           </div>

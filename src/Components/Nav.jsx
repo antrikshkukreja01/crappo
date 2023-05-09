@@ -115,36 +115,42 @@ function Nav() {
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-center     d-md-none gap-3">
                   <a
+                    onClick={() => setname(false)}
                     className=" text-decoration-none mx-2 mx-lg-3 ff_rubik fw-normal nav_hover  position-relative fs_16 text-white   "
                     href="#"
                   >
                     Products
                   </a>
                   <a
+                    onClick={() => setname(false)}
                     className="text-decoration-none mx-2 mx-lg-3 ff_rubik fw-normal nav_hover  position-relative fs_16 text-white   "
                     href="#"
                   >
                     Features
                   </a>
                   <a
+                    onClick={() => setname(false)}
                     className="text-decoration-none mx-2 mx-lg-3 ff_rubik fw-normal nav_hover  position-relative fs_16 text-white   "
                     href="#"
                   >
                     About
                   </a>
                   <a
+                    onClick={() => setname(false)}
                     className="text-decoration-none mx-2 mx-lg-3 ff_rubik fw-normal nav_hover  position-relative fs_16 text-white   "
                     href="#"
                   >
                     Contact
                   </a>
                   <a
+                    onClick={() => setname(false)}
                     className="text-decoration-none mx-2 mx-lg-3 ff_rubik fw_500   my-3 nav_hover position-relative fs_16 text-white   "
                     href="#"
                   >
                     Login
                   </a>
                   <a
+                    onClick={() => setname(false)}
                     className=" transition text-decoration-none Register_btn ff_rubik fw_500 fs_16"
                     href="#"
                   >

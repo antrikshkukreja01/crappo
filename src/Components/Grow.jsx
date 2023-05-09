@@ -4,11 +4,15 @@ import logo2 from "../assets/imgs/png/logo2.png";
 import logo3 from "../assets/imgs/png/logo3.png";
 import up_arrow from "../assets/imgs/png/profit.png";
 import down_arrow from "../assets/imgs/png/loss.png";
+import o_img from "../assets/imgs/png/o_img.png";
 
 function Grow() {
   return (
     <>
       <section className=" bg_navyblue position-relative overflow-hidden mt_1 pt-md-5 pb-5">
+        <div className=" position-absolute d-none d-md-flex bottom-0 end-0">
+          <img src={o_img} alt="o_img" />
+        </div>
         <div className=" container">
           <div className="row">
             <div className="col-lg-6 mb-5 mt-2  ">
@@ -69,7 +73,7 @@ function Grow() {
                       $3420214
                     </p>
                   </div>
-                  <div className="slide_box d-flex align-items-center justify-content-between">
+                  <div className="slide_box my-3 d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center pe-2 pe-sm-3">
                       <img src={logo2} alt="logo1" />
                       <span className="ms-1 ms-sm-4">

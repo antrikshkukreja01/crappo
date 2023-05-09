@@ -1,10 +1,22 @@
 import React from "react";
 import fan_img from "../assets/imgs/png/fan_img.png";
+import left_shadow from "../assets/imgs/png/left_shadow.png";
+import d_img from "../assets/imgs/png/d_img.png";
+import u_img from "../assets/imgs/png/u_img.png";
 
 function Choose() {
   return (
     <>
-      <section className=" bg_darkblue mt_1 pt-5 pb-lg-5">
+      <section className=" bg_darkblue mt_1 position-relative pt-5 pb-lg-5">
+        <div className=" d-none d-md-flex position-absolute end-0 top_20">
+          <img className=" w-100" src={d_img} alt="left_shadow" />
+        </div>
+        <div className=" d-none d-md-flex position-absolute end-0 bottom_20">
+          <img className=" w-100" src={u_img} alt="left_shadow" />
+        </div>
+        <div className=" d-none d-md-flex position-absolute start-0 bottom-0">
+          <img className=" w-100" src={left_shadow} alt="left_shadow" />
+        </div>
         <div className=" container">
           <div className="row  align-items-center">
             <div className="col-lg-6">

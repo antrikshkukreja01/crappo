@@ -14,6 +14,8 @@ import Grow from "./Components/Grow";
 import Choose from "./Components/Choose";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
+import Mining from "./Components/Mining";
+import Footer from "./Components/Footer";
 
 function App() {
   useEffect(() => {
@@ -23,7 +25,8 @@ function App() {
   }, []);
   return (
     <>
-      <Nav /> <Header />
+      <Nav />
+      <Header />
       <Choose />
       <Check />
       <Box />
@@ -31,6 +34,8 @@ function App() {
       <Market />
       <Detailed />
       <Grow />
+      <Mining />
+      <Footer />
     </>
   );
 }

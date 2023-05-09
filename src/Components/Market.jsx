@@ -13,7 +13,7 @@ function Market() {
         </div>
         <div className=" container">
           <div className=" mt-sm-5 text-center d-flex justify-content-center">
-            <p className=" ff_rubik fw-bold fs_40 text-white mb-0 mx_758">
+            <p className=" zn_1 ff_rubik fw-bold fs_40 text-white mb-0 mx_758">
               Market sentiments, portfolio, and run the infrastructure of your
               choice
             </p>

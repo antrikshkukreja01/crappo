@@ -14,7 +14,7 @@
   --fs-md: 20px;
   --fs-lg: 32px;
   --fs-xl: 40px;
-  --fs-2xl:64px
+  --fs-2xl: 64px;
 
   /* colors */
 
@@ -102,7 +102,7 @@
     --fs-md: 13px;
     --fs-lg: 23px;
     --fs-xl: 32px;
-    --fs-2xl:33px
+    --fs-2xl: 33px;
   }
 }
 @media (min-width: 576px) {
@@ -112,7 +112,7 @@
     --fs-md: 15px;
     --fs-lg: 32px;
     --fs-xl: 33px;
-    --fs-2xl:57px
+    --fs-2xl: 57px;
   }
 }
 @media (min-width: 768px) {
@@ -122,7 +122,7 @@
     --fs-md: 20px;
     --fs-lg: 32px;
     --fs-xl: 40px;
-    --fs-2xl:64px
+    --fs-2xl: 64px;
   }
 }
 @media (min-width: 992px) {
@@ -132,7 +132,7 @@
     --fs-md: 20px;
     --fs-lg: 32px;
     --fs-xl: 40px;
-    --fs-2xl:46px
+    --fs-2xl: 46px;
   }
 }
 @media (min-width: 1200px) {
@@ -142,6 +142,6 @@
     --fs-md: 20px;
     --fs-lg: 32px;
     --fs-xl: 40px;
-    --fs-2xl:64px
+    --fs-2xl: 64px;
   }
 }
