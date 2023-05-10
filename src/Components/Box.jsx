@@ -7,7 +7,7 @@ function Box() {
     <section className=" bg_color ">
       <div className=" container">
         {" "}
-        <div className="box ">
+        <div data-aos="fade-down" data-aos-duration="3000" className="box ">
           <div className=" bg_skinywhite border_radius_1 px-3 px-md-5 py-5">
             <Row className=" justify-content-between align-items-center">
               <Col md="6" lg="5">

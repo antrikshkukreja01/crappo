@@ -7,7 +7,11 @@ function Mining() {
     <>
       <section className=" bg_color_gradient py-5">
         <div className=" container">
-          <div className="box_2 position-relative">
+          <div
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            className="box_2 position-relative"
+          >
             <div className=" position-absolute top-0">
               <img src={dimond_img} alt="dimond_img" />
             </div>

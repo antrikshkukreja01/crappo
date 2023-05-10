@@ -35,7 +35,11 @@ function Market() {
               </a>
             </div>
             <div className=" mt-3 mt-lg-0 col-lg-7">
-              <div className="bitcoin_box position-relative ">
+              <div
+                data-aos="fade-down-left"
+                data-aos-duration="3000"
+                className="bitcoin_box position-relative "
+              >
                 {" "}
                 <div className="d-no ne d-sm-flex ">
                   <div className="box1 box1_pos  d-inline-block">
@@ -56,7 +60,7 @@ function Market() {
                     </a>
                   </div>
                 </div>
-                <div className="d-no ne d-sm-flex ">
+                <div className=" d-sm-flex ">
                   <div className=" box2_pos text-center box2">
                     <p className=" ff_inter fw-bold fs_20 text-white mb-0">
                       $15.32

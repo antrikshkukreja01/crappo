@@ -7,7 +7,7 @@ function Detailed() {
       <div className=" container">
         <div className="row mt-sm-5 flex-column-reverse flex-md-row  align-items-center">
           <div
-            data-aos="fade-down-left"
+            data-aos="fade-down-right"
             data-aos-duration="3000"
             className="col-12 col-md-6 "
           >

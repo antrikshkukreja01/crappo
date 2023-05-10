@@ -12,7 +12,7 @@
 .box {
   border-radius: 16px;
   background: white;
-  transition: all ease-in-out 400ms;
+  transition: all ease-in-out 300ms;
 }
 .box1 {
   background: #491f98;
@@ -137,7 +137,7 @@
   border-radius: 50px;
   padding: 14px 32px;
   border: 2px solid transparent;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .sub_btn:hover {
   background: transparent;
@@ -145,7 +145,7 @@
   border-radius: 50px;
   padding: 14px 32px;
   color: white !important;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .nav_hover::before {
   content: "";
@@ -175,7 +175,7 @@
   background: transparent;
   border-radius: 16px;
   padding: 30px 52px 30px 40px;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .slide_box:hover {
   width: 120%;
@@ -183,7 +183,7 @@
   border-radius: 16px;
   padding: 30px 52px 30px 40px;
   transform: translateX(-25%);
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 300ms;
 }
 .box1_pos {
   position: absolute;
@@ -207,7 +207,7 @@
   color: white;
   border-radius: 32px;
   border: 2px solid transparent;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .Register_btn:hover {
   padding: 14px 32px;
@@ -215,7 +215,7 @@
   color: white;
   border-radius: 32px;
   border: 2px solid white;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .bg_color {
   background: linear-gradient(180deg, #0e0e2c 50%, #fbfcfe 50%) !important;
@@ -285,36 +285,36 @@
   border-radius: 16px;
   padding: 48px 24px;
   height: 430px;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .small_box:hover {
   background: #2b076e;
   backdrop-filter: blur(125px);
   height: 430px;
   border-radius: 16px;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .small_box:hover p {
   color: white !important;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .small_box .d_flex {
   display: flex !important;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 
 .small_box:hover .d_flex {
   display: none !important;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .small_box .d_none {
   display: none !important;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 
 .small_box:hover .d_none {
   display: flex !important;
-  transition: all ease-in-out 500ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .img_size {
   height: 80px;
@@ -379,9 +379,13 @@ input {
   width: 100%;
   left: 0;
 }
+.scale {
+  scale: 1;
+  transition: all ease-in-out 300ms;
+}
 .scale:hover {
   scale: 1.2;
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 300ms;
 }
 ::placeholder {
   color: #0d0d2b !important;
@@ -398,7 +402,7 @@ input {
   background: #3671e9;
   border-radius: 50px;
   padding: 16px 32px;
-  transition: all ease-in-out 400ms !important;
+  transition: all ease-in-out 300ms !important;
   border: transparent 2px solid;
   display: inline-block;
 }
@@ -406,21 +410,21 @@ input {
   background: transparent;
   border: #3671e9 2px solid;
   color: #3671e9 !important;
-  transition: all ease-in-out 400ms !important;
+  transition: all ease-in-out 300ms !important;
   display: inline-block;
 }
 .learn_btn {
   background: #3671e9;
   border-radius: 50px;
   padding: 16px 32px;
-  transition: all ease-in-out 400ms !important;
+  transition: all ease-in-out 300ms !important;
   border: transparent 2px solid;
   display: inline-block;
 }
 .learn_btn:hover {
   background: transparent;
   border: white 2px solid;
-  transition: all ease-in-out 400ms !important;
+  transition: all ease-in-out 300ms !important;
   display: inline-block;
   color: white !important;
 }
@@ -436,13 +440,13 @@ input {
   padding: 16px 16px 16px 24px;
   border: 2px solid transparent;
   display: inline-block;
-  transition: all ease-in-out 400ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .start_btn:hover {
   background-color: transparent;
   border: 2px solid white;
   border-radius: 32px !important;
-  transition: all ease-in-out 400ms !important;
+  transition: all ease-in-out 300ms !important;
 }
 .border_radius_1 {
   border-radius: 16px 16px 0px 0px;
@@ -524,7 +528,7 @@ input {
     background: transparent;
     border-radius: 16px;
     padding: 16px 5px 16px 5px;
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
   .slide_box:hover {
     width: 100%;
@@ -532,7 +536,7 @@ input {
     border-radius: 16px;
     padding: 16px 5px 16px 6px;
     transform: translateX(0%);
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
   .hero_img {
     width: 350px !important;
@@ -559,7 +563,7 @@ input {
     border-radius: 16px;
     padding: 16px 40px 16px 40px !important;
     transform: translateX(-20%);
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
   .hero_img {
     width: 510px !important;
@@ -582,7 +586,7 @@ input {
     background: transparent;
     border-radius: 16px;
     padding: 16px 52px 16px 15px;
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
   .slide_box:hover {
     width: 100%;
@@ -590,7 +594,7 @@ input {
     border-radius: 16px;
     padding: 16px 40px 16px 40px !important;
     transform: translateX(-16%);
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
 }
 @media (min-width: 992px) {
@@ -604,7 +608,7 @@ input {
     background: transparent;
     border-radius: 16px;
     padding: 16px 52px 16px 15px;
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
   .slide_box:hover {
     width: 120% !important;
@@ -612,7 +616,7 @@ input {
     border-radius: 16px;
     padding: 16px 40px 16px 40px !important;
     transform: translateX(-23%);
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
   .pt_250 {
     padding-top: 250px;
@@ -635,7 +639,49 @@ input {
     background: transparent;
     border-radius: 16px;
     padding: 16px 52px 16px 40px;
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
+  } /* Loader */
+  .Loader {
+    background-color: #000000 !important;
+    height: 100%;
+    overflow: hidden;
+  }
+  .Overlay_loader {
+    background-color: #000000;
+  }
+  .fs_loader {
+    font-size: 18px;
+    -webkit-text-stroke: 2px #fcfffe;
+    color: #fcfffe;
+    line-height: 35px;
+    letter-spacing: 4px;
+  }
+  .Dot_loader {
+    height: 30px;
+    width: 10px;
+    background-color: #fcfffe;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  .LoaderAnimation1 {
+    animation: loader1 1s linear 0s infinite alternate;
+  }
+  .LoaderAnimation2 {
+    animation: loader1 1.2s linear 0s infinite alternate;
+  }
+  .LoaderAnimation3 {
+    animation: loader1 1.3s linear 0s infinite alternate;
+  }
+  .LoaderAnimation4 {
+    animation: loader1 1.4s linear 0s infinite alternate;
+  }
+  @keyframes loader1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .slide_box:hover {
     width: 100% !important;
@@ -643,7 +689,7 @@ input {
     border-radius: 16px;
     padding: 16px 52px 16px 40px;
     transform: translateX(-25%);
-    transition: all ease-in-out 500ms !important;
+    transition: all ease-in-out 300ms !important;
   }
 }
 @media (min-width: 1400px) {
@@ -655,5 +701,108 @@ input {
   }
   .hero_img {
     width: 604px !important;
+  }
+}
+
+/* ndjnj */
+
+.pl {
+  display: block;
+  width: 8em;
+  height: 8em;
+}
+.pl__ring,
+.pl__ball1,
+.pl__ball2 {
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: 32px 32px;
+}
+.pl__ring {
+  animation-name: ring;
+}
+.pl__ball1 {
+  animation-name: ball1;
+}
+.pl__ball2 {
+  animation-name: ball2;
+}
+
+/* Dark theme  */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(var(--hue), 10%, 10%);
+    --fg: hsl(var(--hue), 10%, 90%);
+  }
+}
+
+/* Animation */
+@keyframes ring {
+  from {
+    animation-timing-function: ease-in-out;
+    stroke-dashoffset: -122.52;
+    transform: rotate(135deg);
+  }
+  15% {
+    animation-timing-function: ease-in;
+    stroke-dashoffset: -122.52;
+    transform: rotate(90deg);
+  }
+  35% {
+    animation-timing-function: ease-out;
+    stroke-dashoffset: -65.34;
+    transform: rotate(297.5deg);
+  }
+  55% {
+    animation-timing-function: ease-in-out;
+    stroke-dashoffset: -122.52;
+    transform: rotate(505deg);
+  }
+  70% {
+    animation-timing-function: ease-in-out;
+    stroke-dashoffset: -122.52;
+    transform: rotate(490deg);
+  }
+  85%,
+  to {
+    stroke-dashoffset: -122.52;
+    transform: rotate(497.5deg);
+  }
+}
+@keyframes ball1 {
+  from {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-7deg);
+  }
+  60% {
+    transform: rotate(399deg);
+  }
+  75% {
+    transform: rotate(361deg);
+  }
+  90%,
+  to {
+    transform: rotate(374deg);
+  }
+}
+@keyframes ball2 {
+  from {
+    transform: rotate(-21deg);
+  }
+  25% {
+    transform: rotate(-47deg);
+  }
+  60% {
+    transform: rotate(364deg);
+  }
+  75% {
+    transform: rotate(326deg);
+  }
+  90%,
+  to {
+    transform: rotate(339deg);
   }
 }

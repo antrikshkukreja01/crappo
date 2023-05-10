@@ -18,7 +18,7 @@ function Header() {
             <img src={shadow_1} alt="shadow_2" />
           </div>
           <div className="row align-items-center flex-column-reverse flex-lg-row ">
-            <div className="col-lg-6 col-12 mt-5 mt-lg-0">
+            <div className="col-lg-6 col-12 mt-5 ">
               <div className="blur_shadow gap-3  d-flex align-items-center">
                 <p className="white_box text-decoration-none mb-0 ff_rubik fw_500 color_navyblue fs_16">
                   75% SAVE
@@ -61,7 +61,7 @@ function Header() {
             <div
               data-aos="zoom-in-down"
               data-aos-duration="3000"
-              className="col-lg-6 mt-5 col-12"
+              className="col-lg-6  col-12"
             >
               <div className="d-flex justify-content-center">
                 <img className="hero_img" src={hero_img} alt="hero_img" />

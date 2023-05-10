@@ -16,6 +16,7 @@ import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import Mining from "./Components/Mining";
 import Footer from "./Components/Footer";
+import Preloder from "./Components/Preloder";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
   }, []);
   return (
     <>
+      <Preloder />
       <Nav />
       <Header />
       <Choose />

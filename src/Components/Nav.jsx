@@ -11,7 +11,7 @@ function Nav() {
   }
   return (
     <>
-      <section className=" bg_darkblue py-4">
+      <section className=" bg_darkblue py-sm-4">
         <div className=" container ">
           {/* nav bar */}
           <nav className=" pt-3">

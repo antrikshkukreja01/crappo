@@ -9,7 +9,7 @@ import o_img from "../assets/imgs/png/o_img.png";
 function Grow() {
   return (
     <>
-      <section className=" bg_navyblue position-relative overflow-hidden mt_1 pt-md-5 pb-5">
+      <section className=" bg_navyblue position-relative overflow-hidden mt_1 py-5">
         <div className=" position-absolute d-none d-md-flex bottom-0 end-0">
           <img src={o_img} alt="o_img" />
         </div>

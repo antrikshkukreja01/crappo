@@ -7,7 +7,7 @@ import u_img from "../assets/imgs/png/u_img.png";
 function Choose() {
   return (
     <>
-      <section className=" bg_darkblue mt_1 position-relative pt-5 pb-lg-5">
+      <section className=" bg_darkblue mt_1 position-relative py-5">
         <div className=" d-none d-md-flex position-absolute end-0 top_20">
           <img className=" w-100" src={d_img} alt="left_shadow" />
         </div>
@@ -19,7 +19,11 @@ function Choose() {
         </div>
         <div className=" container">
           <div className="row  align-items-center">
-            <div className="col-lg-6">
+            <div
+              data-aos="zoom-in-down"
+              data-aos-duration="3000"
+              className="col-lg-6"
+            >
               <img className=" w-100" src={fan_img} alt="fan_img" />
             </div>
             <div className="col-lg-6">
